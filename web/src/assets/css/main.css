@@ -1,0 +1,10 @@
+@import './base.css';
+
+#app {
+  max-width: 100vw;
+}
+.container {
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: var(--el-box-shadow-light);
+}
