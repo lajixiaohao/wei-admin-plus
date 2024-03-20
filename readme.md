@@ -1,9 +1,5 @@
 # 欢迎关注：wei-admin-plus
 
-github：[wei-admin-plus](https://github.com/lajixiaohao/wei-admin-plus)
-
-gitee：[wei-admin-plus](https://gitee.com/lajixiaohao/wei-admin-plus)
-
 ## 一、概述
 
 `wei-admin-plus`是一款简单的后台管理系统解决方案，系统采用B/S架构模式，前后端完全分离，使用最新技术栈打造，欢迎使用和反馈。
