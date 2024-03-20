@@ -124,7 +124,7 @@ INSERT INTO `sys_menus` VALUES (25, 24, '附件管理', 1, '', 'devops/attachmen
 INSERT INTO `sys_menus` VALUES (26, 25, '列表', 3, '', '', '', '', 'devops/attachment', 'GET', '', 1, 0, 1);
 INSERT INTO `sys_menus` VALUES (27, 0, '实验功能', 1, '', '', '', '', '', '', 'experiment', 4, 0, 1);
 INSERT INTO `sys_menus` VALUES (28, 27, '富文本编辑器', 1, '', 'test/editor', 'test', 'RichTextEditor', '', '', 'add-text', 1, 1, 1);
-INSERT INTO `sys_menus` VALUES (29, 0, '项目仓库', 4, '', 'https://gitee.com/lajixiaohao/wei-admin-plus', '', '', '', '', 'github', 5, 0, 1);
+INSERT INTO `sys_menus` VALUES (29, 0, '项目仓库', 4, '', 'https://github.com/lajixiaohao/wei-admin-plus', '', '', '', '', 'github', 5, 0, 1);
 
 -- ----------------------------
 -- Table structure for sys_operation_logs

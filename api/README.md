@@ -35,10 +35,11 @@ composer install
 
 - 配置php.ini文件`upload_max_filesize,post_max_size`的值，若有必要，还需再配置nginx的`client_max_body_size`
 
+- 部署数据表，表数据文件位于`storage/sql/wei_admin_plus.sql`
+
 - 切换到根目录`api`，创建队列失败任务表迁移
 
   ```shell
-  php artisan queue:failed-table
   php artisan migrate
   ```
 
@@ -49,6 +50,8 @@ composer install
   ```
   
 - Linux环境下您需要安装Supervisor来一直保持`queue:work`进程运行，安装和使用请参考：[Supervisor配置](https://learnku.com/docs/laravel/10.x/queues/14873#e45763)。
+
+- 最后确保`storage`目录可写，以记录错误日志等。
 
   
 
