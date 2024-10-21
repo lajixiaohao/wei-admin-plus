@@ -51,4 +51,4 @@
 
 ## 五、其他
 
-微信搜索公众号：垃圾小号的技术窝，或者新标签打开链接`http://124.71.107.97/resources/images/2024/03/1965f95aed7a5ad.jpg`直接扫码关注我了解更多。
+![微信订阅号](http://124.71.107.97/resources/images/wx_qrcode.png)
