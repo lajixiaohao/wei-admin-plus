@@ -51,4 +51,4 @@
 
 ## 五、其他
 
-![微信订阅号](http://124.71.107.97/resources/images/wx_qrcode.png)
+![微信订阅号](http://124.71.107.97/resources/images/wx1.png)

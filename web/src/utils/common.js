@@ -35,25 +35,21 @@ export const getDurationYear = startYear => {
 }
 
 /**
- * 字节转换，最大为MB
+ * 存储单位转换
  * 
- * @param size int
+ * @param bytes int
  * @return string
  */
-export const byteConvert = (size = 0) => {
-  if (size < 1024) {
-    return size + 'B';
+export const byteConvert = (bytes = 0) => {
+  const units = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
+  let i = 0;
+
+  while (bytes >= 1024 && i < units.length - 1) {
+    bytes /= 1024;
+    i++;
   }
-  const kb = size / 1024;
-  const ceilKb = Math.ceil(kb);
-  if (ceilKb < 1024) {
-    return (Math.floor(kb * 10) / 10) + 'KB';
-  }
-  const mb = ceilKb / 1024;
-  if (Math.ceil(mb) < 1024) {
-    return (Math.floor(mb * 10) / 10) + 'MB';
-  }
-  return num;
+
+  return bytes.toFixed(2) + ' ' + units[i];
 }
 
 /**
